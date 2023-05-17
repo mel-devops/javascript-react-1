@@ -5,6 +5,27 @@
 }
 
 body {
-    background-color: lightgray
+    background-color: lightgray;
 }
 
+hr {color: gray;
+    border-color: white;
+
+}
+
+.Food {
+    background-color: blanchedalmond;
+    
+}
+
+.Drink {
+    background-color: lightblue;
+}
+
+.Dessert {
+    background-color: lightpink;
+}
+
+.Menu {
+    line-height: 30px;
+}
