@@ -1,8 +1,11 @@
 import React from 'react'
-import './Main.css'
 
-export const Main = () => {
+import './Nav.css'
+
+export const Nav = () => {
   return (
-    <div>  Home|Login|Suppot|FAQ    </div>
+    <div className="Nav">
+        Home | Login | Support | FAQ
+    </div>
   )
 }
