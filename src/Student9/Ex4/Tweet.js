@@ -1,15 +1,12 @@
 import React from "react";
 
-export const Tweet = ({message, click}) => {
-
+export const Tweet = ({message, clickHandler}) => {
   return (
-    
 <div>
-
     {message}
-    <button onClick = { ( ) => click("like")} >Like</button>
+    <button onClick = { () => clickHandler()} >Like</button>  
    
 </div>
-
+  
   );
 };
