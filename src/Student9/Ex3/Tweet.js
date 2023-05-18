@@ -6,6 +6,5 @@ export const Tweet = ({message}) => {
     {message}
    
 </div>
-  
   );
 };
