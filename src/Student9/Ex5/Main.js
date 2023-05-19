@@ -1,10 +1,8 @@
-import React from 'react'
-import './Main.css'
+import React from "react";
+
+import Account from "./Account";
+import "./Main.css";
 
 export const Main = () => {
-  return (
-    <div>
-        Hello I'm student id: 1.
-    </div>
-  )
-}
+  return <Account />;
+};
