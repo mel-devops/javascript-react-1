@@ -1,9 +1,16 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: lightgray
 }
+
+button {
+    background-color: rgb(74, 208, 199);
+}
+ td {
+    background-color: antiquewhite;
+ }

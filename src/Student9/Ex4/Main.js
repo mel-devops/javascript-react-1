@@ -11,7 +11,7 @@ export const Main = () => {
     
   return (
    <div>
-       <div class="header"> Toltal Likes: {counter}</div>
+       <div class="header"> Total Likes: {counter}</div>
        <Tweets 
        clickHandler = {clickHandler}/>
 
